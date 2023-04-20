@@ -1,0 +1,26 @@
+.place__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.place__link:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        display: flex;
+        max-width: 288px;
+        max-height: 22px;
+        width: 100%;
+        height: 100%;
+        margin: 12px auto 0;
+    }
+}
