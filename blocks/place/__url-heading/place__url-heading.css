@@ -9,7 +9,7 @@
     margin: 0 0 12px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__url-heading {
         display: flex;
         max-width: 288px;
@@ -17,5 +17,5 @@
         width: 100%;
         height: 100%;
         margin: 32px auto 0;
-    }    
+    }
 }

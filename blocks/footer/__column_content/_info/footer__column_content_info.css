@@ -3,7 +3,7 @@
     flex-basis: content;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__column_content_info {
         max-width: 186px;
         max-height: 498px;

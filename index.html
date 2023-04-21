@@ -13,7 +13,7 @@
             <div class="header__container">
                 <picture class="header__logo">
                     <source srcset="./images/header/__logo-1280.svg" media="(min-width: 321px)">
-                    <img src="./images/header/__logo-1024.png" alt="Логотип Россия">
+                    <img src="./images/header/logo__header.svg" alt="Логотип Россия">
                 </picture>
                 <nav class="header__lang-links" aria-label="Выбор языка страницы">
                     <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
@@ -25,7 +25,13 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="lead__image" src="./images/lead/__image-map-1280.png" alt="Картинка с картой путешествия">
+                <picture class="lead__image">
+                    <source media="(min-width: 1280px)" srcset="./images/lead/__image-map-1280.png">
+                    <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="./images/lead/__image-map-1024.png">
+                    <source media="(min-width: 768px) and (max-width: 1023px)" srcset="./images/lead/__image-map-768.png">
+                    <source media="(min-width: 320px) and (max-width: 767px)" srcset="./images/lead/__image-map-320.png">
+                    <img src="./images/lead/__image-map-320.png" alt="Картинка с картой путешествия">
+                  </picture>
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
             <section class="intro">
