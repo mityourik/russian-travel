@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./vendors/normalize.css">
     <title>Путешествие по России</title>
 </head>
 <body>
@@ -25,13 +26,10 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <picture class="lead__image">
-                    <source media="(min-width: 1280px)" srcset="./images/lead/__image-map-1280.png">
-                    <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="./images/lead/__image-map-1024.png">
-                    <source media="(min-width: 768px) and (max-width: 1023px)" srcset="./images/lead/__image-map-768.png">
-                    <source media="(min-width: 320px) and (max-width: 767px)" srcset="./images/lead/__image-map-320.png">
-                    <img src="./images/lead/__image-map-320.png" alt="Картинка с картой путешествия">
-                  </picture>
+                <picture>
+                    <source srcset="./images/lead/__image-map-1024.png" media="(max-width: 1024px)">
+                    <img class="lead__image" src="./images/lead/__image-map-1280.png" alt="Картинка с картой путешествия">
+                </picture>
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
             <section class="intro">
