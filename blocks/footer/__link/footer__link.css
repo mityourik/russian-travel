@@ -5,7 +5,6 @@
     font-size: 16px;
     line-height: 112%;
     color: #FFFFFF;
-    margin: 0 18px 0 0;
     text-decoration: none;
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
@@ -20,6 +19,5 @@
         display: flex;
         font-size: 24px;
         line-height: 100%;
-        margin: 0 0 32px;
     }    
 }

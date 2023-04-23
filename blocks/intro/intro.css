@@ -18,26 +18,7 @@
     }
 }
 
-@media screen and (max-width: 740px) {
-    .intro {
-    max-width: 600px;
-    margin: 64px auto;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .intro {
-    max-width: 500px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .intro {
-    max-width: 340px;
-    }
-}
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 767px) {
     .intro {
     max-width: 288px;
     margin: 64px auto;
